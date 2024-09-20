@@ -1,0 +1,45 @@
+<!--Mark Collins-->
+<!--2-13-24-->
+<!--Weather App-->
+<!--Images used from flaticon.com-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="appContainer">
+        <div id="search">
+            <input id="city" placeholder="Enter City Here">
+        </div>
+        <div id="searchButton">
+            <button onclick="getWeather()"><img src="images/search.png" alt="search"></button>
+        </div>
+        <div id="cityNameOutput">
+            <h1 id="cityOut"></h1>
+        </div>
+        <div id="weatherImgContainer">
+            <img id="weatherImg" src="">
+        </div>
+        <div id="tempOutput">
+            <h1 id="tempOut"></h1>
+        </div>
+        <div id="metricButtonContainer">
+            <button onclick="fToC()"><img id="celToFerImg" src="images/celsius (1).png" alt="celsius"></button>
+        </div>
+        <div id="weatherImgKey">
+            <img src="images/Clear.png">
+            <h4>Clear</h4>
+            <img src="images/Clouds.png">
+            <h4>Cloudy</h4>
+            <img src="images/rain.png">
+            <h4>Raining</h4>
+            <img src="images/Snow.png">
+            <h4>Snowing</h4>
+        </div>
+    </div>
+</body>
+</html>
